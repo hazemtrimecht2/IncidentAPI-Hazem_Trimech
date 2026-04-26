@@ -1,0 +1,6 @@
+@IncidentAPI_Hazem_Trimech_HostAddress = http://localhost:5171
+
+GET {{IncidentAPI_Hazem_Trimech_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

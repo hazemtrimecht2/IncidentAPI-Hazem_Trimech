@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RunSettings>
+  <RunConfiguration>
+    <EnvironmentVariables>
+      <!-- Replace with your SQL Server connection for integration tests -->
+      <ConnectionStrings__IncidentsConnection>Server=localhost,1433;Database=IncidentsDb;User Id=sa;Password=Your_password123;</ConnectionStrings__IncidentsConnection>
+    </EnvironmentVariables>
+  </RunConfiguration>
+</RunSettings>

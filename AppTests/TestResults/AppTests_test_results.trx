@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="1bbee5ae-b43f-46d2-a19b-907926537be4" name="hazem@HAZEM_TRIMECH 2026-04-26 20:27:51" runUser="HAZEM_TRIMECH\hazem" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-04-26T20:27:51.5727906+01:00" queuing="2026-04-26T20:27:51.5727907+01:00" start="2026-04-26T20:27:50.4622667+01:00" finish="2026-04-26T20:27:51.8631306+01:00" />
+  <TestSettings name="default" id="fa17888e-16e9-4231-951d-9adf224a80c9">
+    <Deployment runDeploymentRoot="hazem_HAZEM_TRIMECH_2026-04-26_20_27_51" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="425a8443-e6ae-4a6b-ab4f-56bca34f7a94" testId="89fad3ad-bc4f-8b10-e939-f29d10e07464" testName="AppTests.FactorialTests.Factorial_NegativeInputs_ThrowsArgumentException(input: -3)" computerName="HAZEM_TRIMECH" duration="00:00:00.0001417" startTime="2026-04-26T20:27:51.5370593+01:00" endTime="2026-04-26T20:27:51.5370594+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="425a8443-e6ae-4a6b-ab4f-56bca34f7a94" />
+    <UnitTestResult executionId="c52ab771-4ddf-4dfb-bc26-d564060a9fd0" testId="bfb2a36a-141d-25f0-6a5e-c6cf3010f9d8" testName="AppTests.FactorialTests.Factorial_NegativeInputs_ThrowsArgumentException(input: -10)" computerName="HAZEM_TRIMECH" duration="00:00:00.0001185" startTime="2026-04-26T20:27:51.5370887+01:00" endTime="2026-04-26T20:27:51.5370888+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c52ab771-4ddf-4dfb-bc26-d564060a9fd0" />
+    <UnitTestResult executionId="bd97e2de-6221-4203-b102-190351840bd4" testId="7dee98af-eefa-3a80-6696-3fd552fb2cdf" testName="AppTests.FactorialTests.Factorial_ValidInputs_ReturnsExpectedResult(input: 1, expected: 1)" computerName="HAZEM_TRIMECH" duration="00:00:00.0001621" startTime="2026-04-26T20:27:51.5369477+01:00" endTime="2026-04-26T20:27:51.5369478+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bd97e2de-6221-4203-b102-190351840bd4" />
+    <UnitTestResult executionId="8d026de2-7155-4e56-8910-c40242210667" testId="35c30a59-bd03-def2-f6c2-d592b3920047" testName="AppTests.IncidentsTests.PostIncident_InvalidSeverity_ReturnsBadRequest(severity: &quot;Azerty&quot;)" computerName="HAZEM_TRIMECH" duration="00:00:00.0000302" startTime="2026-04-26T20:27:51.7595168+01:00" endTime="2026-04-26T20:27:51.7595168+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8d026de2-7155-4e56-8910-c40242210667" />
+    <UnitTestResult executionId="155549ce-4882-4ee6-a08d-80845d286852" testId="ad7fbcea-c3b5-9b15-c6eb-6d4f229cc246" testName="AppTests.IncidentsTests.PostIncident_InvalidSeverity_ReturnsBadRequest(severity: &quot;&quot;)" computerName="HAZEM_TRIMECH" duration="00:00:00.0000223" startTime="2026-04-26T20:27:51.7595475+01:00" endTime="2026-04-26T20:27:51.7595475+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="155549ce-4882-4ee6-a08d-80845d286852" />
+    <UnitTestResult executionId="bfe8a1c8-ee60-4cd1-89d9-101f5e8e37d9" testId="28be6cd6-7763-75dc-421a-6ca58e202bce" testName="AppTests.IncidentsTests.PostIncident_InvalidSeverity_ReturnsBadRequest(severity: &quot;Abc&quot;)" computerName="HAZEM_TRIMECH" duration="00:00:00.0001499" startTime="2026-04-26T20:27:51.7594838+01:00" endTime="2026-04-26T20:27:51.7594838+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bfe8a1c8-ee60-4cd1-89d9-101f5e8e37d9" />
+    <UnitTestResult executionId="32b20570-a300-4521-ad7a-a76a94760d1a" testId="0469e628-9f33-cc26-4828-6f642241c880" testName="AppTests.FactorialTests.Factorial_Zero_ReturnsOne" computerName="HAZEM_TRIMECH" duration="00:00:00.0000537" startTime="2026-04-26T20:27:51.5370221+01:00" endTime="2026-04-26T20:27:51.5370221+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="32b20570-a300-4521-ad7a-a76a94760d1a" />
+    <UnitTestResult executionId="832da812-3e79-4203-a79e-ec740f11510b" testId="3e17eaaf-1498-8a30-5fa6-0ba227fe5444" testName="AppTests.FactorialTests.Factorial_ValidInputs_ReturnsExpectedResult(input: 0, expected: 1)" computerName="HAZEM_TRIMECH" duration="00:00:00.0000035" startTime="2026-04-26T20:27:51.5369825+01:00" endTime="2026-04-26T20:27:51.5369825+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="832da812-3e79-4203-a79e-ec740f11510b" />
+    <UnitTestResult executionId="6d9e37f4-bb56-4d7c-b4be-7a6a4ca364ae" testId="a5f59463-f42d-12ab-3b27-5603dce6c378" testName="AppTests.IncidentsIntegrationTests.PostIncident_CreatesIncident" computerName="HAZEM_TRIMECH" duration="00:00:00.0295587" startTime="2026-04-26T20:27:51.7963309+01:00" endTime="2026-04-26T20:27:51.7963311+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6d9e37f4-bb56-4d7c-b4be-7a6a4ca364ae" />
+    <UnitTestResult executionId="e202a787-62b2-4aca-b5f9-e93ba70f6e07" testId="5448570c-26fa-9fef-dedc-b1e1678bac96" testName="AppTests.FactorialTests.Factorial_PositiveInteger_ReturnsCorrectResult" computerName="HAZEM_TRIMECH" duration="00:00:00.0000581" startTime="2026-04-26T20:27:51.5153964+01:00" endTime="2026-04-26T20:27:51.5153964+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e202a787-62b2-4aca-b5f9-e93ba70f6e07" />
+    <UnitTestResult executionId="e850b74e-82e6-48aa-b38a-43776e456004" testId="d459a88b-06de-9624-7b6f-80b2907c41f7" testName="AppTests.IncidentsTests.PostIncident_InvalidSeverity_ReturnsBadRequest(severity: &quot;123&quot;)" computerName="HAZEM_TRIMECH" duration="00:00:00.0006162" startTime="2026-04-26T20:27:51.7594433+01:00" endTime="2026-04-26T20:27:51.7594434+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e850b74e-82e6-48aa-b38a-43776e456004" />
+    <UnitTestResult executionId="e5b93690-fde8-4090-8ec2-111ec5309aa6" testId="2c614a4e-7070-4a43-a5bd-4bef4a92ef7a" testName="AppTests.SumTests.Sum_PositiveNumbers_ReturnsCorrectResult" computerName="HAZEM_TRIMECH" duration="00:00:00.0001904" startTime="2026-04-26T20:27:51.5154943+01:00" endTime="2026-04-26T20:27:51.5154943+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e5b93690-fde8-4090-8ec2-111ec5309aa6" />
+    <UnitTestResult executionId="4c885a82-37e1-4a9b-937b-1efaab550040" testId="dc217c09-fd21-638b-91ed-705410be6dc5" testName="AppTests.IncidentsTests.GetIncidents_WhenDataExists_ReturnsAllIncidents" computerName="HAZEM_TRIMECH" duration="00:00:00.0032886" startTime="2026-04-26T20:27:51.7626451+01:00" endTime="2026-04-26T20:27:51.7626452+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4c885a82-37e1-4a9b-937b-1efaab550040" />
+    <UnitTestResult executionId="87de7a61-6399-46c4-816e-2d5f07f2588c" testId="650c1103-240b-adcd-6ce6-e9c787f336f5" testName="AppTests.IncidentsTests.PostIncident_MissingTitle_ReturnsBadRequest" computerName="HAZEM_TRIMECH" duration="00:00:00.0004184" startTime="2026-04-26T20:27:51.7923416+01:00" endTime="2026-04-26T20:27:51.7923417+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="87de7a61-6399-46c4-816e-2d5f07f2588c" />
+    <UnitTestResult executionId="36f332eb-1adb-4c41-836b-01525600935c" testId="ad567d6c-2fa0-4ea6-45ab-ed6f31c3f943" testName="AppTests.IncidentsTests.PostIncident_ValidSeverity_ReturnsCreated(severity: &quot;Medium&quot;)" computerName="HAZEM_TRIMECH" duration="00:00:00.0006289" startTime="2026-04-26T20:27:51.7800345+01:00" endTime="2026-04-26T20:27:51.7800346+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="36f332eb-1adb-4c41-836b-01525600935c" />
+    <UnitTestResult executionId="28b4a508-a34f-473e-9f3d-bb2bcc529e25" testId="c217a465-0399-bb06-b4e6-fbdacf24b80b" testName="AppTests.FactorialTests.Factorial_ValidInputs_ReturnsExpectedResult(input: 5, expected: 120)" computerName="HAZEM_TRIMECH" duration="00:00:00.0000673" startTime="2026-04-26T20:27:51.5154766+01:00" endTime="2026-04-26T20:27:51.5154767+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="28b4a508-a34f-473e-9f3d-bb2bcc529e25" />
+    <UnitTestResult executionId="358ecf32-5c2f-4e46-8a02-761b3bfb31eb" testId="5b0b2e90-4215-f98e-5411-38af0b49372c" testName="AppTests.IncidentsTests.PostIncident_ValidSeverity_ReturnsCreated(severity: &quot;Low&quot;)" computerName="HAZEM_TRIMECH" duration="00:00:00.0002971" startTime="2026-04-26T20:27:51.7803694+01:00" endTime="2026-04-26T20:27:51.7803695+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="358ecf32-5c2f-4e46-8a02-761b3bfb31eb" />
+    <UnitTestResult executionId="ecba7211-c9a9-4123-a267-b9a7d2eb8fe6" testId="f3539153-b1f6-9656-f32a-227c91c5c835" testName="AppTests.SumTests.Sum_NegativeAndPositiveNumbers_ReturnsCorrectResult" computerName="HAZEM_TRIMECH" duration="00:00:00.0000348" startTime="2026-04-26T20:27:51.5368269+01:00" endTime="2026-04-26T20:27:51.5368269+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ecba7211-c9a9-4123-a267-b9a7d2eb8fe6" />
+    <UnitTestResult executionId="a4e36331-6853-4220-8476-9fafe691fe0f" testId="9d9de252-830b-d5f5-7bc9-472b558f1b42" testName="AppTests.IncidentsTests.PutIncident_ValidUpdate_ReturnsNoContent" computerName="HAZEM_TRIMECH" duration="00:00:00.0163546" startTime="2026-04-26T20:27:51.7583953+01:00" endTime="2026-04-26T20:27:51.7583954+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a4e36331-6853-4220-8476-9fafe691fe0f" />
+    <UnitTestResult executionId="0ecfd892-f65e-45c8-b590-a6b261dc9cf1" testId="b46d1004-6731-382c-be6b-e68929a2dda1" testName="AppTests.IncidentsTests.DeleteIncident_ExistingId_RemovesIncident" computerName="HAZEM_TRIMECH" duration="00:00:00.0050713" startTime="2026-04-26T20:27:51.7918731+01:00" endTime="2026-04-26T20:27:51.7918732+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0ecfd892-f65e-45c8-b590-a6b261dc9cf1" />
+    <UnitTestResult executionId="09d198fd-eb3c-4cc5-8314-d9fbaec00768" testId="5f85e5b7-e95b-d805-232b-c181d687ce00" testName="AppTests.SumTests.Sum_NegativeNumbers_ReturnsCorrectResult" computerName="HAZEM_TRIMECH" duration="00:00:00.0015639" startTime="2026-04-26T20:27:51.5131987+01:00" endTime="2026-04-26T20:27:51.5132083+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="09d198fd-eb3c-4cc5-8314-d9fbaec00768" />
+    <UnitTestResult executionId="f8f2e354-b4e3-4dec-9691-b7827d27acc6" testId="ef2221b5-f07c-56cb-4a86-b961b381cae7" testName="AppTests.IncidentsTests.PostIncident_ValidData_CreatesIncident" computerName="HAZEM_TRIMECH" duration="00:00:00.2321932" startTime="2026-04-26T20:27:51.7420055+01:00" endTime="2026-04-26T20:27:51.7420057+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f8f2e354-b4e3-4dec-9691-b7827d27acc6" />
+    <UnitTestResult executionId="a1dc3b27-cf7b-485e-af1f-eff66730472c" testId="dd8eb8f2-6b1d-a238-d9df-b4f47e9b3f18" testName="AppTests.IncidentsTests.PostIncident_ValidSeverity_ReturnsCreated(severity: &quot;High&quot;)" computerName="HAZEM_TRIMECH" duration="00:00:00.0001681" startTime="2026-04-26T20:27:51.7805719+01:00" endTime="2026-04-26T20:27:51.7805720+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a1dc3b27-cf7b-485e-af1f-eff66730472c" />
+    <UnitTestResult executionId="6dd952fd-883d-464e-b33f-d1fb44a700f5" testId="79aedc63-57a0-56c2-9799-96f2259bc730" testName="AppTests.IncidentsTests.DeleteIncident_NotFound_ReturnsNotFound" computerName="HAZEM_TRIMECH" duration="00:00:00.0143173" startTime="2026-04-26T20:27:51.7793969+01:00" endTime="2026-04-26T20:27:51.7793971+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6dd952fd-883d-464e-b33f-d1fb44a700f5" />
+    <UnitTestResult executionId="a2a5caf5-fc2e-40ec-a1c2-8a612b5ec974" testId="71fcee82-488a-2f2b-775f-c81aefff8753" testName="AppTests.IncidentsTests.PostIncident_ValidSeverity_ReturnsCreated(severity: &quot;Critical&quot;)" computerName="HAZEM_TRIMECH" duration="00:00:00.0001520" startTime="2026-04-26T20:27:51.7807527+01:00" endTime="2026-04-26T20:27:51.7807527+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a2a5caf5-fc2e-40ec-a1c2-8a612b5ec974" />
+    <UnitTestResult executionId="a4036516-0902-435e-a118-cd4d3e5c884b" testId="8565702f-b91f-010c-36da-d564b5703584" testName="AppTests.FactorialTests.Factorial_One_ReturnsOne" computerName="HAZEM_TRIMECH" duration="00:00:00.0000326" startTime="2026-04-26T20:27:51.5154362+01:00" endTime="2026-04-26T20:27:51.5154362+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a4036516-0902-435e-a118-cd4d3e5c884b" />
+    <UnitTestResult executionId="dc168a3c-c3a8-4b7f-9661-010edbc06b8a" testId="13e30187-fe74-4d92-a63a-d94cf2c9553c" testName="AppTests.IncidentsIntegrationTests.GetIncidents_ReturnsOk" computerName="HAZEM_TRIMECH" duration="00:00:00.2571659" startTime="2026-04-26T20:27:51.7661994+01:00" endTime="2026-04-26T20:27:51.7661995+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dc168a3c-c3a8-4b7f-9661-010edbc06b8a" />
+    <UnitTestResult executionId="18e56318-7cb7-4a98-bbd3-a49967efd46e" testId="75fc2eee-91d1-22d2-7383-b94b8ee9d710" testName="AppTests.FactorialTests.Factorial_NegativeInputs_ThrowsArgumentException(input: -1)" computerName="HAZEM_TRIMECH" duration="00:00:00.0000110" startTime="2026-04-26T20:27:51.5371199+01:00" endTime="2026-04-26T20:27:51.5371199+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="18e56318-7cb7-4a98-bbd3-a49967efd46e" />
+    <UnitTestResult executionId="57649c36-3606-4754-9d21-17683a3bbaae" testId="daab963b-8759-abfa-fff7-fe63c425955e" testName="AppTests.IncidentsTests.GetIncident_ExistingId_ReturnsIncident" computerName="HAZEM_TRIMECH" duration="00:00:00.0023026" startTime="2026-04-26T20:27:51.7649487+01:00" endTime="2026-04-26T20:27:51.7649488+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="57649c36-3606-4754-9d21-17683a3bbaae" />
+    <UnitTestResult executionId="8fe1afd6-da4b-4f93-8c18-1a64ab1e4642" testId="2730cef1-21f5-e977-8008-19e7956e543a" testName="AppTests.FactorialTests.Factorial_NegativeInteger_ThrowsArgumentException" computerName="HAZEM_TRIMECH" duration="00:00:00.0014976" startTime="2026-04-26T20:27:51.5147273+01:00" endTime="2026-04-26T20:27:51.5147274+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8fe1afd6-da4b-4f93-8c18-1a64ab1e4642" />
+    <UnitTestResult executionId="685cb9d0-2930-4b38-b6fd-c1aea19509f7" testId="69f84128-62da-4749-1387-1f8cd4392c3f" testName="AppTests.IncidentsIntegrationTests.PostThenGet_ReturnsInsertedIncident" computerName="HAZEM_TRIMECH" duration="00:00:00.0064689" startTime="2026-04-26T20:27:51.8029232+01:00" endTime="2026-04-26T20:27:51.8029233+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="685cb9d0-2930-4b38-b6fd-c1aea19509f7" />
+    <UnitTestResult executionId="a1808a0b-9ae9-452d-835e-bedf1f125b11" testId="4bf70d26-5c01-6861-bebe-9f9053c1234f" testName="AppTests.IncidentsTests.PutIncident_IdMismatch_ReturnsBadRequest" computerName="HAZEM_TRIMECH" duration="00:00:00.0003040" startTime="2026-04-26T20:27:51.7927830+01:00" endTime="2026-04-26T20:27:51.7927831+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a1808a0b-9ae9-452d-835e-bedf1f125b11" />
+    <UnitTestResult executionId="84a0ebea-0439-4c7a-b150-3859e547e081" testId="5f02d299-e322-7736-5682-09fe4523001b" testName="AppTests.IncidentsTests.FilterBySeverityAsync_ValidSeverity_ReturnsFilteredData" computerName="HAZEM_TRIMECH" duration="00:00:00.0059711" startTime="2026-04-26T20:27:51.7867912+01:00" endTime="2026-04-26T20:27:51.7867913+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="84a0ebea-0439-4c7a-b150-3859e547e081" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="AppTests.IncidentsIntegrationTests.PostIncident_CreatesIncident" storage="c:\users\hazem\source\repos\incidentapi-hazem_trimech-main\apptests\bin\debug\net8.0\apptests.dll" id="a5f59463-f42d-12ab-3b27-5603dce6c378">
+      <Execution id="6d9e37f4-bb56-4d7c-b4be-7a6a4ca364ae" />
+      <TestMethod codeBase="C:\Users\hazem\source\repos\IncidentAPI-Hazem_Trimech-main\AppTests\bin\Debug\net8.0\AppTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AppTests.IncidentsIntegrationTests" name="PostIncident_CreatesIncident" />
+    </UnitTest>
+    <UnitTest name="AppTests.FactorialTests.Factorial_ValidInputs_ReturnsExpectedResult(input: 0, expected: 1)" storage="c:\users\hazem\source\repos\incidentapi-hazem_trimech-main\apptests\bin\debug\net8.0\apptests.dll" id="3e17eaaf-1498-8a30-5fa6-0ba227fe5444">
+      <Execution id="832da812-3e79-4203-a79e-ec740f11510b" />
+      <TestMethod codeBase="C:\Users\hazem\source\repos\IncidentAPI-Hazem_Trimech-main\AppTests\bin\Debug\net8.0\AppTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AppTests.FactorialTests" name="Factorial_ValidInputs_ReturnsExpectedResult" />
+    </UnitTest>
+    <UnitTest name="AppTests.IncidentsTests.PutIncident_IdMismatch_ReturnsBadRequest" storage="c:\users\hazem\source\repos\incidentapi-hazem_trimech-main\apptests\bin\debug\net8.0\apptests.dll" id="4bf70d26-5c01-6861-bebe-9f9053c1234f">
+      <Execution id="a1808a0b-9ae9-452d-835e-bedf1f125b11" />
+      <TestMethod codeBase="C:\Users\hazem\source\repos\IncidentAPI-Hazem_Trimech-main\AppTests\bin\Debug\net8.0\AppTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AppTests.IncidentsTests" name="PutIncident_IdMismatch_ReturnsBadRequest" />
+    </UnitTest>
+    <UnitTest name="AppTests.FactorialTests.Factorial_NegativeInputs_ThrowsArgumentException(input: -3)" storage="c:\users\hazem\source\repos\incidentapi-hazem_trimech-main\apptests\bin\debug\net8.0\apptests.dll" id="89fad3ad-bc4f-8b10-e939-f29d10e07464">
+      <Execution id="425a8443-e6ae-4a6b-ab4f-56bca34f7a94" />
+      <TestMethod codeBase="C:\Users\hazem\source\repos\IncidentAPI-Hazem_Trimech-main\AppTests\bin\Debug\net8.0\AppTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AppTests.FactorialTests" name="Factorial_NegativeInputs_ThrowsArgumentException" />
+    </UnitTest>
+    <UnitTest name="AppTests.FactorialTests.Factorial_Zero_ReturnsOne" storage="c:\users\hazem\source\repos\incidentapi-hazem_trimech-main\apptests\bin\debug\net8.0\apptests.dll" id="0469e628-9f33-cc26-4828-6f642241c880">
+      <Execution id="32b20570-a300-4521-ad7a-a76a94760d1a" />
+      <TestMethod codeBase="C:\Users\hazem\source\repos\IncidentAPI-Hazem_Trimech-main\AppTests\bin\Debug\net8.0\AppTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AppTests.FactorialTests" name="Factorial_Zero_ReturnsOne" />
+    </UnitTest>
+    <UnitTest name="AppTests.IncidentsTests.FilterBySeverityAsync_ValidSeverity_ReturnsFilteredData" storage="c:\users\hazem\source\repos\incidentapi-hazem_trimech-main\apptests\bin\debug\net8.0\apptests.dll" id="5f02d299-e322-7736-5682-09fe4523001b">
+      <Execution id="84a0ebea-0439-4c7a-b150-3859e547e081" />
+      <TestMethod codeBase="C:\Users\hazem\source\repos\IncidentAPI-Hazem_Trimech-main\AppTests\bin\Debug\net8.0\AppTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AppTests.IncidentsTests" name="FilterBySeverityAsync_ValidSeverity_ReturnsFilteredData" />
+    </UnitTest>
+    <UnitTest name="AppTests.FactorialTests.Factorial_PositiveInteger_ReturnsCorrectResult" storage="c:\users\hazem\source\repos\incidentapi-hazem_trimech-main\apptests\bin\debug\net8.0\apptests.dll" id="5448570c-26fa-9fef-dedc-b1e1678bac96">
+      <Execution id="e202a787-62b2-4aca-b5f9-e93ba70f6e07" />
+      <TestMethod codeBase="C:\Users\hazem\source\repos\IncidentAPI-Hazem_Trimech-main\AppTests\bin\Debug\net8.0\AppTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AppTests.FactorialTests" name="Factorial_PositiveInteger_ReturnsCorrectResult" />
+    </UnitTest>
+    <UnitTest name="AppTests.SumTests.Sum_NegativeNumbers_ReturnsCorrectResult" storage="c:\users\hazem\source\repos\incidentapi-hazem_trimech-main\apptests\bin\debug\net8.0\apptests.dll" id="5f85e5b7-e95b-d805-232b-c181d687ce00">
+      <Execution id="09d198fd-eb3c-4cc5-8314-d9fbaec00768" />
+      <TestMethod codeBase="C:\Users\hazem\source\repos\IncidentAPI-Hazem_Trimech-main\AppTests\bin\Debug\net8.0\AppTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AppTests.SumTests" name="Sum_NegativeNumbers_ReturnsCorrectResult" />
+    </UnitTest>
+    <UnitTest name="AppTests.IncidentsTests.PostIncident_ValidSeverity_ReturnsCreated(severity: &quot;Low&quot;)" storage="c:\users\hazem\source\repos\incidentapi-hazem_trimech-main\apptests\bin\debug\net8.0\apptests.dll" id="5b0b2e90-4215-f98e-5411-38af0b49372c">
+      <Execution id="358ecf32-5c2f-4e46-8a02-761b3bfb31eb" />
+      <TestMethod codeBase="C:\Users\hazem\source\repos\IncidentAPI-Hazem_Trimech-main\AppTests\bin\Debug\net8.0\AppTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AppTests.IncidentsTests" name="PostIncident_ValidSeverity_ReturnsCreated" />
+    </UnitTest>
+    <UnitTest name="AppTests.FactorialTests.Factorial_One_ReturnsOne" storage="c:\users\hazem\source\repos\incidentapi-hazem_trimech-main\apptests\bin\debug\net8.0\apptests.dll" id="8565702f-b91f-010c-36da-d564b5703584">
+      <Execution id="a4036516-0902-435e-a118-cd4d3e5c884b" />
+      <TestMethod codeBase="C:\Users\hazem\source\repos\IncidentAPI-Hazem_Trimech-main\AppTests\bin\Debug\net8.0\AppTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AppTests.FactorialTests" name="Factorial_One_ReturnsOne" />
+    </UnitTest>
+    <UnitTest name="AppTests.IncidentsTests.PostIncident_InvalidSeverity_ReturnsBadRequest(severity: &quot;Abc&quot;)" storage="c:\users\hazem\source\repos\incidentapi-hazem_trimech-main\apptests\bin\debug\net8.0\apptests.dll" id="28be6cd6-7763-75dc-421a-6ca58e202bce">
+      <Execution id="bfe8a1c8-ee60-4cd1-89d9-101f5e8e37d9" />
+      <TestMethod codeBase="C:\Users\hazem\source\repos\IncidentAPI-Hazem_Trimech-main\AppTests\bin\Debug\net8.0\AppTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AppTests.IncidentsTests" name="PostIncident_InvalidSeverity_ReturnsBadRequest" />
+    </UnitTest>
+    <UnitTest name="AppTests.SumTests.Sum_PositiveNumbers_ReturnsCorrectResult" storage="c:\users\hazem\source\repos\incidentapi-hazem_trimech-main\apptests\bin\debug\net8.0\apptests.dll" id="2c614a4e-7070-4a43-a5bd-4bef4a92ef7a">
+      <Execution id="e5b93690-fde8-4090-8ec2-111ec5309aa6" />
+      <TestMethod codeBase="C:\Users\hazem\source\repos\IncidentAPI-Hazem_Trimech-main\AppTests\bin\Debug\net8.0\AppTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AppTests.SumTests" name="Sum_PositiveNumbers_ReturnsCorrectResult" />
+    </UnitTest>
+    <UnitTest name="AppTests.IncidentsTests.GetIncident_ExistingId_ReturnsIncident" storage="c:\users\hazem\source\repos\incidentapi-hazem_trimech-main\apptests\bin\debug\net8.0\apptests.dll" id="daab963b-8759-abfa-fff7-fe63c425955e">
+      <Execution id="57649c36-3606-4754-9d21-17683a3bbaae" />
+      <TestMethod codeBase="C:\Users\hazem\source\repos\IncidentAPI-Hazem_Trimech-main\AppTests\bin\Debug\net8.0\AppTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AppTests.IncidentsTests" name="GetIncident_ExistingId_ReturnsIncident" />
+    </UnitTest>
+    <UnitTest name="AppTests.IncidentsTests.PostIncident_ValidSeverity_ReturnsCreated(severity: &quot;High&quot;)" storage="c:\users\hazem\source\repos\incidentapi-hazem_trimech-main\apptests\bin\debug\net8.0\apptests.dll" id="dd8eb8f2-6b1d-a238-d9df-b4f47e9b3f18">
+      <Execution id="a1dc3b27-cf7b-485e-af1f-eff66730472c" />
+      <TestMethod codeBase="C:\Users\hazem\source\repos\IncidentAPI-Hazem_Trimech-main\AppTests\bin\Debug\net8.0\AppTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AppTests.IncidentsTests" name="PostIncident_ValidSeverity_ReturnsCreated" />
+    </UnitTest>
+    <UnitTest name="AppTests.IncidentsTests.PostIncident_InvalidSeverity_ReturnsBadRequest(severity: &quot;Azerty&quot;)" storage="c:\users\hazem\source\repos\incidentapi-hazem_trimech-main\apptests\bin\debug\net8.0\apptests.dll" id="35c30a59-bd03-def2-f6c2-d592b3920047">
+      <Execution id="8d026de2-7155-4e56-8910-c40242210667" />
+      <TestMethod codeBase="C:\Users\hazem\source\repos\IncidentAPI-Hazem_Trimech-main\AppTests\bin\Debug\net8.0\AppTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AppTests.IncidentsTests" name="PostIncident_InvalidSeverity_ReturnsBadRequest" />
+    </UnitTest>
+    <UnitTest name="AppTests.IncidentsTests.PostIncident_InvalidSeverity_ReturnsBadRequest(severity: &quot;&quot;)" storage="c:\users\hazem\source\repos\incidentapi-hazem_trimech-main\apptests\bin\debug\net8.0\apptests.dll" id="ad7fbcea-c3b5-9b15-c6eb-6d4f229cc246">
+      <Execution id="155549ce-4882-4ee6-a08d-80845d286852" />
+      <TestMethod codeBase="C:\Users\hazem\source\repos\IncidentAPI-Hazem_Trimech-main\AppTests\bin\Debug\net8.0\AppTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AppTests.IncidentsTests" name="PostIncident_InvalidSeverity_ReturnsBadRequest" />
+    </UnitTest>
+    <UnitTest name="AppTests.IncidentsTests.PostIncident_MissingTitle_ReturnsBadRequest" storage="c:\users\hazem\source\repos\incidentapi-hazem_trimech-main\apptests\bin\debug\net8.0\apptests.dll" id="650c1103-240b-adcd-6ce6-e9c787f336f5">
+      <Execution id="87de7a61-6399-46c4-816e-2d5f07f2588c" />
+      <TestMethod codeBase="C:\Users\hazem\source\repos\IncidentAPI-Hazem_Trimech-main\AppTests\bin\Debug\net8.0\AppTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AppTests.IncidentsTests" name="PostIncident_MissingTitle_ReturnsBadRequest" />
+    </UnitTest>
+    <UnitTest name="AppTests.IncidentsTests.PostIncident_InvalidSeverity_ReturnsBadRequest(severity: &quot;123&quot;)" storage="c:\users\hazem\source\repos\incidentapi-hazem_trimech-main\apptests\bin\debug\net8.0\apptests.dll" id="d459a88b-06de-9624-7b6f-80b2907c41f7">
+      <Execution id="e850b74e-82e6-48aa-b38a-43776e456004" />
+      <TestMethod codeBase="C:\Users\hazem\source\repos\IncidentAPI-Hazem_Trimech-main\AppTests\bin\Debug\net8.0\AppTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AppTests.IncidentsTests" name="PostIncident_InvalidSeverity_ReturnsBadRequest" />
+    </UnitTest>
+    <UnitTest name="AppTests.IncidentsTests.PostIncident_ValidData_CreatesIncident" storage="c:\users\hazem\source\repos\incidentapi-hazem_trimech-main\apptests\bin\debug\net8.0\apptests.dll" id="ef2221b5-f07c-56cb-4a86-b961b381cae7">
+      <Execution id="f8f2e354-b4e3-4dec-9691-b7827d27acc6" />
+      <TestMethod codeBase="C:\Users\hazem\source\repos\IncidentAPI-Hazem_Trimech-main\AppTests\bin\Debug\net8.0\AppTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AppTests.IncidentsTests" name="PostIncident_ValidData_CreatesIncident" />
+    </UnitTest>
+    <UnitTest name="AppTests.IncidentsTests.GetIncidents_WhenDataExists_ReturnsAllIncidents" storage="c:\users\hazem\source\repos\incidentapi-hazem_trimech-main\apptests\bin\debug\net8.0\apptests.dll" id="dc217c09-fd21-638b-91ed-705410be6dc5">
+      <Execution id="4c885a82-37e1-4a9b-937b-1efaab550040" />
+      <TestMethod codeBase="C:\Users\hazem\source\repos\IncidentAPI-Hazem_Trimech-main\AppTests\bin\Debug\net8.0\AppTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AppTests.IncidentsTests" name="GetIncidents_WhenDataExists_ReturnsAllIncidents" />
+    </UnitTest>
+    <UnitTest name="AppTests.IncidentsIntegrationTests.GetIncidents_ReturnsOk" storage="c:\users\hazem\source\repos\incidentapi-hazem_trimech-main\apptests\bin\debug\net8.0\apptests.dll" id="13e30187-fe74-4d92-a63a-d94cf2c9553c">
+      <Execution id="dc168a3c-c3a8-4b7f-9661-010edbc06b8a" />
+      <TestMethod codeBase="C:\Users\hazem\source\repos\IncidentAPI-Hazem_Trimech-main\AppTests\bin\Debug\net8.0\AppTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AppTests.IncidentsIntegrationTests" name="GetIncidents_ReturnsOk" />
+    </UnitTest>
+    <UnitTest name="AppTests.FactorialTests.Factorial_NegativeInputs_ThrowsArgumentException(input: -10)" storage="c:\users\hazem\source\repos\incidentapi-hazem_trimech-main\apptests\bin\debug\net8.0\apptests.dll" id="bfb2a36a-141d-25f0-6a5e-c6cf3010f9d8">
+      <Execution id="c52ab771-4ddf-4dfb-bc26-d564060a9fd0" />
+      <TestMethod codeBase="C:\Users\hazem\source\repos\IncidentAPI-Hazem_Trimech-main\AppTests\bin\Debug\net8.0\AppTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AppTests.FactorialTests" name="Factorial_NegativeInputs_ThrowsArgumentException" />
+    </UnitTest>
+    <UnitTest name="AppTests.IncidentsTests.PostIncident_ValidSeverity_ReturnsCreated(severity: &quot;Critical&quot;)" storage="c:\users\hazem\source\repos\incidentapi-hazem_trimech-main\apptests\bin\debug\net8.0\apptests.dll" id="71fcee82-488a-2f2b-775f-c81aefff8753">
+      <Execution id="a2a5caf5-fc2e-40ec-a1c2-8a612b5ec974" />
+      <TestMethod codeBase="C:\Users\hazem\source\repos\IncidentAPI-Hazem_Trimech-main\AppTests\bin\Debug\net8.0\AppTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AppTests.IncidentsTests" name="PostIncident_ValidSeverity_ReturnsCreated" />
+    </UnitTest>
+    <UnitTest name="AppTests.IncidentsTests.PutIncident_ValidUpdate_ReturnsNoContent" storage="c:\users\hazem\source\repos\incidentapi-hazem_trimech-main\apptests\bin\debug\net8.0\apptests.dll" id="9d9de252-830b-d5f5-7bc9-472b558f1b42">
+      <Execution id="a4e36331-6853-4220-8476-9fafe691fe0f" />
+      <TestMethod codeBase="C:\Users\hazem\source\repos\IncidentAPI-Hazem_Trimech-main\AppTests\bin\Debug\net8.0\AppTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AppTests.IncidentsTests" name="PutIncident_ValidUpdate_ReturnsNoContent" />
+    </UnitTest>
+    <UnitTest name="AppTests.SumTests.Sum_NegativeAndPositiveNumbers_ReturnsCorrectResult" storage="c:\users\hazem\source\repos\incidentapi-hazem_trimech-main\apptests\bin\debug\net8.0\apptests.dll" id="f3539153-b1f6-9656-f32a-227c91c5c835">
+      <Execution id="ecba7211-c9a9-4123-a267-b9a7d2eb8fe6" />
+      <TestMethod codeBase="C:\Users\hazem\source\repos\IncidentAPI-Hazem_Trimech-main\AppTests\bin\Debug\net8.0\AppTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AppTests.SumTests" name="Sum_NegativeAndPositiveNumbers_ReturnsCorrectResult" />
+    </UnitTest>
+    <UnitTest name="AppTests.FactorialTests.Factorial_ValidInputs_ReturnsExpectedResult(input: 1, expected: 1)" storage="c:\users\hazem\source\repos\incidentapi-hazem_trimech-main\apptests\bin\debug\net8.0\apptests.dll" id="7dee98af-eefa-3a80-6696-3fd552fb2cdf">
+      <Execution id="bd97e2de-6221-4203-b102-190351840bd4" />
+      <TestMethod codeBase="C:\Users\hazem\source\repos\IncidentAPI-Hazem_Trimech-main\AppTests\bin\Debug\net8.0\AppTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AppTests.FactorialTests" name="Factorial_ValidInputs_ReturnsExpectedResult" />
+    </UnitTest>
+    <UnitTest name="AppTests.IncidentsTests.PostIncident_ValidSeverity_ReturnsCreated(severity: &quot;Medium&quot;)" storage="c:\users\hazem\source\repos\incidentapi-hazem_trimech-main\apptests\bin\debug\net8.0\apptests.dll" id="ad567d6c-2fa0-4ea6-45ab-ed6f31c3f943">
+      <Execution id="36f332eb-1adb-4c41-836b-01525600935c" />
+      <TestMethod codeBase="C:\Users\hazem\source\repos\IncidentAPI-Hazem_Trimech-main\AppTests\bin\Debug\net8.0\AppTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AppTests.IncidentsTests" name="PostIncident_ValidSeverity_ReturnsCreated" />
+    </UnitTest>
+    <UnitTest name="AppTests.IncidentsIntegrationTests.PostThenGet_ReturnsInsertedIncident" storage="c:\users\hazem\source\repos\incidentapi-hazem_trimech-main\apptests\bin\debug\net8.0\apptests.dll" id="69f84128-62da-4749-1387-1f8cd4392c3f">
+      <Execution id="685cb9d0-2930-4b38-b6fd-c1aea19509f7" />
+      <TestMethod codeBase="C:\Users\hazem\source\repos\IncidentAPI-Hazem_Trimech-main\AppTests\bin\Debug\net8.0\AppTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AppTests.IncidentsIntegrationTests" name="PostThenGet_ReturnsInsertedIncident" />
+    </UnitTest>
+    <UnitTest name="AppTests.FactorialTests.Factorial_NegativeInputs_ThrowsArgumentException(input: -1)" storage="c:\users\hazem\source\repos\incidentapi-hazem_trimech-main\apptests\bin\debug\net8.0\apptests.dll" id="75fc2eee-91d1-22d2-7383-b94b8ee9d710">
+      <Execution id="18e56318-7cb7-4a98-bbd3-a49967efd46e" />
+      <TestMethod codeBase="C:\Users\hazem\source\repos\IncidentAPI-Hazem_Trimech-main\AppTests\bin\Debug\net8.0\AppTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AppTests.FactorialTests" name="Factorial_NegativeInputs_ThrowsArgumentException" />
+    </UnitTest>
+    <UnitTest name="AppTests.FactorialTests.Factorial_ValidInputs_ReturnsExpectedResult(input: 5, expected: 120)" storage="c:\users\hazem\source\repos\incidentapi-hazem_trimech-main\apptests\bin\debug\net8.0\apptests.dll" id="c217a465-0399-bb06-b4e6-fbdacf24b80b">
+      <Execution id="28b4a508-a34f-473e-9f3d-bb2bcc529e25" />
+      <TestMethod codeBase="C:\Users\hazem\source\repos\IncidentAPI-Hazem_Trimech-main\AppTests\bin\Debug\net8.0\AppTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AppTests.FactorialTests" name="Factorial_ValidInputs_ReturnsExpectedResult" />
+    </UnitTest>
+    <UnitTest name="AppTests.IncidentsTests.DeleteIncident_NotFound_ReturnsNotFound" storage="c:\users\hazem\source\repos\incidentapi-hazem_trimech-main\apptests\bin\debug\net8.0\apptests.dll" id="79aedc63-57a0-56c2-9799-96f2259bc730">
+      <Execution id="6dd952fd-883d-464e-b33f-d1fb44a700f5" />
+      <TestMethod codeBase="C:\Users\hazem\source\repos\IncidentAPI-Hazem_Trimech-main\AppTests\bin\Debug\net8.0\AppTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AppTests.IncidentsTests" name="DeleteIncident_NotFound_ReturnsNotFound" />
+    </UnitTest>
+    <UnitTest name="AppTests.FactorialTests.Factorial_NegativeInteger_ThrowsArgumentException" storage="c:\users\hazem\source\repos\incidentapi-hazem_trimech-main\apptests\bin\debug\net8.0\apptests.dll" id="2730cef1-21f5-e977-8008-19e7956e543a">
+      <Execution id="8fe1afd6-da4b-4f93-8c18-1a64ab1e4642" />
+      <TestMethod codeBase="C:\Users\hazem\source\repos\IncidentAPI-Hazem_Trimech-main\AppTests\bin\Debug\net8.0\AppTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AppTests.FactorialTests" name="Factorial_NegativeInteger_ThrowsArgumentException" />
+    </UnitTest>
+    <UnitTest name="AppTests.IncidentsTests.DeleteIncident_ExistingId_RemovesIncident" storage="c:\users\hazem\source\repos\incidentapi-hazem_trimech-main\apptests\bin\debug\net8.0\apptests.dll" id="b46d1004-6731-382c-be6b-e68929a2dda1">
+      <Execution id="0ecfd892-f65e-45c8-b590-a6b261dc9cf1" />
+      <TestMethod codeBase="C:\Users\hazem\source\repos\IncidentAPI-Hazem_Trimech-main\AppTests\bin\Debug\net8.0\AppTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AppTests.IncidentsTests" name="DeleteIncident_ExistingId_RemovesIncident" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="89fad3ad-bc4f-8b10-e939-f29d10e07464" executionId="425a8443-e6ae-4a6b-ab4f-56bca34f7a94" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bfb2a36a-141d-25f0-6a5e-c6cf3010f9d8" executionId="c52ab771-4ddf-4dfb-bc26-d564060a9fd0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7dee98af-eefa-3a80-6696-3fd552fb2cdf" executionId="bd97e2de-6221-4203-b102-190351840bd4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="35c30a59-bd03-def2-f6c2-d592b3920047" executionId="8d026de2-7155-4e56-8910-c40242210667" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ad7fbcea-c3b5-9b15-c6eb-6d4f229cc246" executionId="155549ce-4882-4ee6-a08d-80845d286852" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="28be6cd6-7763-75dc-421a-6ca58e202bce" executionId="bfe8a1c8-ee60-4cd1-89d9-101f5e8e37d9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0469e628-9f33-cc26-4828-6f642241c880" executionId="32b20570-a300-4521-ad7a-a76a94760d1a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3e17eaaf-1498-8a30-5fa6-0ba227fe5444" executionId="832da812-3e79-4203-a79e-ec740f11510b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a5f59463-f42d-12ab-3b27-5603dce6c378" executionId="6d9e37f4-bb56-4d7c-b4be-7a6a4ca364ae" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5448570c-26fa-9fef-dedc-b1e1678bac96" executionId="e202a787-62b2-4aca-b5f9-e93ba70f6e07" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d459a88b-06de-9624-7b6f-80b2907c41f7" executionId="e850b74e-82e6-48aa-b38a-43776e456004" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2c614a4e-7070-4a43-a5bd-4bef4a92ef7a" executionId="e5b93690-fde8-4090-8ec2-111ec5309aa6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dc217c09-fd21-638b-91ed-705410be6dc5" executionId="4c885a82-37e1-4a9b-937b-1efaab550040" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="650c1103-240b-adcd-6ce6-e9c787f336f5" executionId="87de7a61-6399-46c4-816e-2d5f07f2588c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ad567d6c-2fa0-4ea6-45ab-ed6f31c3f943" executionId="36f332eb-1adb-4c41-836b-01525600935c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c217a465-0399-bb06-b4e6-fbdacf24b80b" executionId="28b4a508-a34f-473e-9f3d-bb2bcc529e25" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5b0b2e90-4215-f98e-5411-38af0b49372c" executionId="358ecf32-5c2f-4e46-8a02-761b3bfb31eb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f3539153-b1f6-9656-f32a-227c91c5c835" executionId="ecba7211-c9a9-4123-a267-b9a7d2eb8fe6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9d9de252-830b-d5f5-7bc9-472b558f1b42" executionId="a4e36331-6853-4220-8476-9fafe691fe0f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b46d1004-6731-382c-be6b-e68929a2dda1" executionId="0ecfd892-f65e-45c8-b590-a6b261dc9cf1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5f85e5b7-e95b-d805-232b-c181d687ce00" executionId="09d198fd-eb3c-4cc5-8314-d9fbaec00768" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ef2221b5-f07c-56cb-4a86-b961b381cae7" executionId="f8f2e354-b4e3-4dec-9691-b7827d27acc6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dd8eb8f2-6b1d-a238-d9df-b4f47e9b3f18" executionId="a1dc3b27-cf7b-485e-af1f-eff66730472c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="79aedc63-57a0-56c2-9799-96f2259bc730" executionId="6dd952fd-883d-464e-b33f-d1fb44a700f5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="71fcee82-488a-2f2b-775f-c81aefff8753" executionId="a2a5caf5-fc2e-40ec-a1c2-8a612b5ec974" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8565702f-b91f-010c-36da-d564b5703584" executionId="a4036516-0902-435e-a118-cd4d3e5c884b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="13e30187-fe74-4d92-a63a-d94cf2c9553c" executionId="dc168a3c-c3a8-4b7f-9661-010edbc06b8a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="75fc2eee-91d1-22d2-7383-b94b8ee9d710" executionId="18e56318-7cb7-4a98-bbd3-a49967efd46e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="daab963b-8759-abfa-fff7-fe63c425955e" executionId="57649c36-3606-4754-9d21-17683a3bbaae" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2730cef1-21f5-e977-8008-19e7956e543a" executionId="8fe1afd6-da4b-4f93-8c18-1a64ab1e4642" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="69f84128-62da-4749-1387-1f8cd4392c3f" executionId="685cb9d0-2930-4b38-b6fd-c1aea19509f7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4bf70d26-5c01-6861-bebe-9f9053c1234f" executionId="a1808a0b-9ae9-452d-835e-bedf1f125b11" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5f02d299-e322-7736-5682-09fe4523001b" executionId="84a0ebea-0439-4c7a-b150-3859e547e081" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Les résultats ne figurent pas dans une liste" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Tous les résultats chargés" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="33" executed="33" passed="33" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.5+1caef2f33e (64-bit .NET 8.0.26)&#xD;
+[xUnit.net 00:00:00.41]   Discovering: AppTests&#xD;
+[xUnit.net 00:00:00.44]   Discovered:  AppTests&#xD;
+[xUnit.net 00:00:00.44]   Starting:    AppTests&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 0 entities to in-memory store.&#xD;
+warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]&#xD;
+      Failed to determine the https port for redirect.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 1 entities to in-memory store.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 1 entities to in-memory store.&#xD;
+[xUnit.net 00:00:00.76]   Finished:    AppTests&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
